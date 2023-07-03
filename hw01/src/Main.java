@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         char myChar = 'G';
@@ -15,5 +17,11 @@ public class Main {
         System.out.println("Float: " + myFloat);
         System.out.println("Double: " + myDouble);
         System.out.println("Long: " + myLong);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("this is from keyboard:" + scanner.nextLine());
+
+
+
     }
 }
